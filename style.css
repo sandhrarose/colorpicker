@@ -1,0 +1,32 @@
+body{
+    height:100vh;
+    background-color: yellow;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width:150px;
+    height:150px;
+    border:2px solid black;
+    outline: none;
+}
+
+button:hover{
+    cursor:pointer;
+    opacity: .8;
+}
+
+#btn_red{
+    background-color: red;
+}
+#btn_violet{
+    background-color: violet;
+}
+#btn_green{
+    background-color: green;
+}
+#btn_orange{
+    background-color: orange;
+}
